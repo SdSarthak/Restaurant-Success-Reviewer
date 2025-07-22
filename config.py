@@ -25,11 +25,7 @@ HEADERS = {
 
 # Multiple CSS selectors for review extraction (fallback options)
 REVIEW_SELECTORS = [
-    'p.sc-1hez2tp-0.sc-hfLElm.hreYiP',  # Primary selector from HTML structure
-    'p.sc-1hez2tp-0.hreYiP',             # Simplified version
-    'p.hreYiP',                          # Even more simplified
-    'div.sc-dgAbBl.ceFzZe p',            # Review container paragraph
-    'section.sc-jOnSTu.cfrSOJ p',        # Review section paragraph
+    'p.sc-1hez2tp-0.sc-hfLElm.hreYiP',  # Current selector
     'div[data-testid="review-text"]',    # Alternative selector
     'div.reviews-text',                  # Another alternative
     'p.review-text',                     # Generic fallback
